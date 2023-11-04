@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Exemplo de Funções em JavaScript</title>
+</head>
+
+<body>
+    <h1>Gerenciador de Alunos</h1>
+
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome">
+    <br>
+
+    <label for="nota">Nota:</label>
+    <input type="text" id="nota">
+    <br>
+
+    <button onclick="adicionarAluno()">Adicionar Aluno</button>
+    <button onclick="filtrarAlunos()">Filtrar Alunos</button>
+    <button onclick="mostrarTodos()">Mostrar Todos</button>
+    <button onclick="mapearNomes()">Mapear Nomes</button>
+    <button onclick="filtrarNotasAltas()">Filtrar Notas Altas</button>
+    <button onclick="calcularSomaNotas()">Calcular Soma das Notas</button>
+    <br>
+
+    <input type="text" id="filtro" placeholder="Filtrar por nome">
+    <br>
+
+    <div id="error-message" style="color: red;"></div>
+    <br>
+
+    <table id="tabela"></table>
+    <br>
+
+    <div id="soma-notas"></div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

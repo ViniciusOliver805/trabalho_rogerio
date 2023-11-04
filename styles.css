@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ADD8E6;
+    text-align: center;
+    margin: 20px;
+  }
+
+  h1 {
+    color: #333;
+  }
+
+  label, input, button {
+    margin: 5px;
+  }
+
+  input, button {
+    padding: 8px;
+    font-size: 16px;
+  }
+
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px auto;
+    background-color: #fff;
+  }
+
+  table, th, td {
+    border: 1px solid #ccc;
+  }
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #4caf50;
+    color: #fff;
+  }
+
+  input[type="text"] {
+    width: 200px;
+  }
+
+  #error-message, #soma-notas {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+  }
